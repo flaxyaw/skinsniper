@@ -7,15 +7,18 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-print("   _____ _    _                 _                 ")
-print("  / ____| |  (_)               (_)                ")
-print(" | (___ | | ___ _ __  ___ _ __  _ _ __   ___ _ __ ")
-print("  \___ \| |/ / | '_ \/ __| '_ \| | '_ \ / _ \ '__|")
-print("  ____) |   <| | | | \__ \ | | | | |_) |  __/ |   ")
-print(" |_____/|_|\_\_|_| |_|___/_| |_|_| .__/ \___|_|   ")
-print("                                 | |              ")
-print("                                 |_|              ")
 
+
+print("                                                                       ")
+print("██╗  ██╗ █████╗ ████████╗ ██████╗ ███████╗███╗   ██╗██╗██████╗ ███████╗")
+print("██║ ██╔╝██╔══██╗╚══██╔══╝██╔═══██╗██╔════╝████╗  ██║██║██╔══██╗██╔════╝")
+print("█████╔╝ ███████║   ██║   ██║   ██║███████╗██╔██╗ ██║██║██████╔╝█████╗  ")
+print("██╔═██╗ ██╔══██║   ██║   ██║   ██║╚════██║██║╚██╗██║██║██╔═══╝ ██╔══╝  ")
+print("██║  ██╗██║  ██║   ██║   ╚██████╔╝███████║██║ ╚████║██║██║     ███████╗")
+print("╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚═╝╚═╝     ╚══════╝")
+print("                                                                       ")
+print("Loading... 01001011 01100001 01110100 01101111 01010011 01101110 01101001 01110000 01100101 ")
+print("BB Enjoy.")
 # The chrome_data folder is used to store the cookies and session data of the Chrome browser
 # This makes it possible to login to Skinport once and then use the same session for all future runs of the script
 chrome_data_path = f"{pathlib.Path(__file__).parent.absolute()}/chrome_data"
