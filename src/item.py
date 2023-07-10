@@ -1,0 +1,59 @@
+from dataclasses import dataclass
+from typing import Optional, List
+
+@dataclass
+class Item:
+    id: int
+    saleId: int
+    shortId: str
+    productId: int
+    assetId: int
+    itemId: int
+    appid: int
+    steamid: str
+    url: str
+    family: str
+    family_localized: str
+    name: str
+    title: str
+    text: str
+    marketName: str
+    marketHashName: str
+    color: str
+    bgColor: Optional[str]
+    image: str
+    classid: str
+    assetid: str
+    lock: str
+    version: str
+    versionType: str
+    stackAble: bool
+    suggestedPrice: int
+    salePrice: int
+    currency: str
+    saleStatus: str
+    saleType: str
+    category: str
+    category_localized: str
+    subCategory: str
+    subCategory_localized: str
+    pattern: int
+    finish: int
+    customName: Optional[str]
+    wear: float
+    link: str
+    type: str
+    exterior: str
+    quality: str
+    rarity: str
+    rarity_localized: str
+    rarityColor: str
+    collection: str
+    collection_localized: str
+    stickers: List[dict]
+    canHaveScreenshots: bool
+    screenshots: List[dict]
+    souvenir: bool
+    stattrak: bool
+    tags: List[dict]
+    ownItem: bool
